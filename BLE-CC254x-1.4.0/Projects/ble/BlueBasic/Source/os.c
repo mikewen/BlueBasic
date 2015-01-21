@@ -330,6 +330,7 @@ unsigned char OS_serial_open(unsigned char port, unsigned long baud, unsigned ch
       return 2;
   }
  
+  /*
   // Only support port 0, no-parity, 8-bits, 1 stop bit
   if (port != 0 || parity != 'N' || bits != 8 || stop != 1 || flow != 'H')
   {
@@ -345,6 +346,29 @@ unsigned char OS_serial_open(unsigned char port, unsigned long baud, unsigned ch
   config.tx.maxBufSize = 128;
   config.intEnable = 1;
   config.callBackFunc = _uartCallback;
+  */
+  
+  //Add support for no hardware flow control
+  if(flow == 'N'){
+	config.flowControl = 0;
+  }
+  // Only support port 0, no-parity, 8-bits, 1 stop bit
+  else if (port != 0 || parity != 'N' || bits != 8 || stop != 1 || flow != 'H')
+  {
+    return 3;
+  }else{
+	config.flowControl = 1;
+	config.flowControlThreshold = 64;
+  }
+
+  config.configured = 1;
+  config.baudRate = baud;
+  config.idleTimeout = 0;
+  config.rx.maxBufSize = 128;
+  config.tx.maxBufSize = 128;
+  config.intEnable = 1;
+  config.callBackFunc = _uartCallback;
+  
   if (HalUARTOpen(HAL_UART_PORT_0, &config) == HAL_UART_SUCCESS)
   {
     serial[0].onread = onread;
