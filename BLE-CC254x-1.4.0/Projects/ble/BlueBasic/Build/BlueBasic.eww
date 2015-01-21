@@ -4,23 +4,7 @@
   <project>
     <path>$WS_DIR$\BlueBasic.ewp</path>
   </project>
-  <batchBuild>
-    <batchDefinition>
-      <name>All</name>
-      <member>
-        <project>BlueBasic</project>
-        <configuration>CC2540-ImgB</configuration>
-      </member>
-      <member>
-        <project>BlueBasic</project>
-        <configuration>CC2541-ImgB</configuration>
-      </member>
-      <member>
-        <project>BlueBasic</project>
-        <configuration>Petra</configuration>
-      </member>
-    </batchDefinition>
-  </batchBuild>
+  <batchBuild/>
 </workspace>
 
 

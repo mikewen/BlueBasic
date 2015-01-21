@@ -10,23 +10,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>6</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -262,13 +250,37 @@
           <name>Extended stack is offset</name>
           <state>0</state>
         </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -560,6 +572,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -739,9 +755,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1061,6 +1077,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -1089,6 +1109,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -1102,23 +1127,11 @@
     <debug>1</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>6</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -1354,13 +1367,37 @@
           <name>Extended stack is offset</name>
           <state>0</state>
         </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1652,6 +1689,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -1831,9 +1872,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1908,7 +1949,7 @@
         </option>
         <option>
           <name>XclFile</name>
-          <state>E:\Projects\BlueBasic\BLE-CC254x-1.4.0\Projects\ble\common\cc2540\cc254x_f256_imgA.xcl</state>
+          <state>C:\BlueBasic\BLE-CC254x-1.4.0\Projects\ble\common\cc2540\cc254x_f256_imgA.xcl</state>
         </option>
         <option>
           <name>XclFileSlave</name>
@@ -2153,6 +2194,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -2181,6 +2226,11 @@
       </data>
     </settings>
     <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
+    </settings>
+    <settings>
       <name>BILINK</name>
       <archiveVersion>0</archiveVersion>
       <data/>
@@ -2194,23 +2244,11 @@
     <debug>0</debug>
     <settings>
       <name>General</name>
-      <archiveVersion>1</archiveVersion>
+      <archiveVersion>2</archiveVersion>
       <data>
-        <version>6</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
-        <option>
-          <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2541F256.i51</state>
-        </option>
-        <option>
-          <name>Showed Derivative</name>
-          <state>CC2541F256</state>
-        </option>
         <option>
           <name>CPU Core</name>
           <version>1</version>
@@ -2446,13 +2484,37 @@
           <name>Extended stack is offset</name>
           <state>0</state>
         </option>
+        <option>
+          <name>OGChipSelectMenu</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>OGChipSelectMenuSlave</name>
+          <state>CC2541F256	CC2541F256</state>
+        </option>
+        <option>
+          <name>DPC Address</name>
+          <state></state>
+        </option>
+        <option>
+          <name>AutoModificationType</name>
+          <state></state>
+        </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>UseMDU</name>
+          <state></state>
+        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>10</version>
+        <version>11</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -2744,6 +2806,10 @@
           <name>NoSizeConstraints</name>
           <state>0</state>
         </option>
+        <option>
+          <name>UseHWMulDivUnit</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -2923,9 +2989,9 @@
     </settings>
     <settings>
       <name>XLINK</name>
-      <archiveVersion>3</archiveVersion>
+      <archiveVersion>4</archiveVersion>
       <data>
-        <version>18</version>
+        <version>19</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -3245,6 +3311,10 @@
           <version>0</version>
           <state>0</state>
         </option>
+        <option>
+          <name>XLink DPC Address</name>
+          <state>1</state>
+        </option>
       </data>
     </settings>
     <settings>
@@ -3271,6 +3341,11 @@
           <state>###Uninitialized###</state>
         </option>
       </data>
+    </settings>
+    <settings>
+      <name>HWMUL</name>
+      <archiveVersion>0</archiveVersion>
+      <data/>
     </settings>
     <settings>
       <name>BILINK</name>
@@ -3304,7 +3379,7 @@
     <group>
       <name>Common</name>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\hal\common\hal_drivers.c</name>
+        <name>$PROJ_DIR$\..\..\..\..\Components\hal\common\hal_drivers.c</name>
       </file>
     </group>
     <group>
@@ -3414,7 +3489,7 @@
             </excluded>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\hal\target\CC2540EB\hal_sleep.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_sleep.c</name>
           </file>
           <file>
             <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\CC2540EB\hal_startup.c</name>
@@ -3516,22 +3591,22 @@
       <name>$PROJ_DIR$\..\..\..\..\Components\ble\include\bcomdef.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\osal\common\OSAL.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\osal\common\osal_cbtimer.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\osal\common\OSAL_ClockBLE.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\osal\common\OSAL_Memory.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\osal\common\OSAL_PwrMgr.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
       <excluded>
         <configuration>CC2541-ImgA</configuration>
         <configuration>CC2540-ImgA</configuration>
@@ -3539,7 +3614,7 @@
       </excluded>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\osal\common\OSAL_Timers.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
     </file>
   </group>
   <group>
@@ -3573,7 +3648,7 @@
       <name>$PROJ_DIR$\..\..\Include\gapgattserver.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\COMPONENTS\ble\host\gatt_uuid.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\Include\gattservapp.h</name>

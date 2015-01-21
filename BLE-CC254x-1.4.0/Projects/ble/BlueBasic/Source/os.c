@@ -350,7 +350,8 @@ unsigned char OS_serial_open(unsigned char port, unsigned long baud, unsigned ch
   
   //Add support for no hardware flow control
   if(flow == 'N'){
-	config.flowControl = 0;
+	config.flowControl = HAL_UART_FLOW_OFF;
+        config.flowControlThreshold = 0;
   }
   // Only support port 0, no-parity, 8-bits, 1 stop bit
   else if (port != 0 || parity != 'N' || bits != 8 || stop != 1 || flow != 'H')
